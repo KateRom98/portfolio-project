@@ -7,7 +7,7 @@ ul {
 }
 
 .homepage-head {
-  background-color: rgb(49, 12, 84);
+  background: linear-gradient(to right, #14061a, #304e72);
   border: 1px solid white;
   border-radius: 20px;
   box-shadow: 10px 10px 10px 10px rgb(112, 116, 217);
