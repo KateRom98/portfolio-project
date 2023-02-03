@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(245, 235, 224);
+  --primary-color: rgb(255, 255, 255);
   --secondary-color: #14061a;
 }
 
@@ -37,6 +37,8 @@ a {
   margin-top: 100px;
   max-width: fit-content;
   text-align: center;
+  padding: 10px;
+  opacity: 80%;
 }
 
 .btn-light {
@@ -61,9 +63,9 @@ a {
 }
 
 .homepage-photo {
-  max-width: 70%;
-  height: auto;
   border-radius: 50%;
+  max-width: 85%;
+  filter: saturate(130%) opacity(80%);
 }
 
 .homepage-paragraph {
@@ -80,4 +82,29 @@ a {
 .homepage-link-portfolio p {
   color: var(--primary-color);
   font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2,
+  p,
+  .homepage-paragraph {
+    font-size: 20px;
+  }
+
+  .homepage-head {
+    line-height: 1.9;
+  }
+
+  .homepage-link-portfolio p {
+    font-size: 30px;
+  }
 }
