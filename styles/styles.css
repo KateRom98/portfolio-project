@@ -8,7 +8,8 @@
 body {
   background-image: url(/media/coding.jpg);
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--primary-color);
 }
 
@@ -99,7 +100,7 @@ a {
   border: none;
   max-width: fit-content;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -112,12 +113,24 @@ a {
   line-height: 2.2;
 }
 
-@media (max-width: 600px) {
-  body {
-    background-size: cover;
-    background-position: center;
-  }
+.about-paragraph {
+  text-align: justify;
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
+  background-image: linear-gradient(to right, #1f0b28, #501c51, #a25fb1);
+  border-radius: 18px;
+  box-shadow: 5px 5px 10px 10px var(--secondary-color);
+  padding: 20px;
+  opacity: 90%;
+  border: none;
+}
 
+.certificate {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
   h1 {
     font-size: 60px;
   }
@@ -134,5 +147,15 @@ a {
 
   .homepage-link-portfolio {
     font-size: 30px;
+  }
+
+  .hard-skills-div,
+  .soft-skills-div {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .about-paragraph {
+    font-size: 15px;
   }
 }
