@@ -1,6 +1,8 @@
 :root {
   --primary-color: rgb(255, 255, 255);
   --secondary-color: #14061a;
+  --primary-font-family: "Oswald", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--primary-font-family);
   font-size: 100px;
 }
 
@@ -20,7 +22,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-size: 30px;
   text-align: center;
 }
@@ -45,10 +47,10 @@ a {
   display: block;
   margin: 0 auto;
   font-size: 20px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: bolder;
-  max-width: fit-content;
   padding: 20px 30px;
+  max-width: fit-content;
   margin-top: 30px;
   color: var(--secondary-color);
   background-color: var(--primary-color);
@@ -64,8 +66,12 @@ a {
 
 .homepage-photo {
   border-radius: 50%;
-  max-width: 85%;
+  max-width: 70%;
   filter: saturate(130%) opacity(80%);
+}
+
+.homepage-image {
+  text-align: center;
 }
 
 .homepage-paragraph {
@@ -79,7 +85,7 @@ a {
   border: none;
 }
 
-.homepage-link-portfolio p {
+.homepage-link-portfolio {
   color: var(--primary-color);
   font-size: 40px;
 }
@@ -104,7 +110,7 @@ a {
     line-height: 1.9;
   }
 
-  .homepage-link-portfolio p {
+  .homepage-link-portfolio {
     font-size: 30px;
   }
 }
