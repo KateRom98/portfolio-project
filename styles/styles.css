@@ -24,7 +24,6 @@ h6,
 p {
   font-family: var(--secondary-font-family);
   font-size: 30px;
-  text-align: center;
 }
 
 a {
@@ -67,11 +66,7 @@ a {
 .homepage-photo {
   border-radius: 50%;
   max-width: 70%;
-  filter: saturate(130%) opacity(80%);
-}
-
-.homepage-image {
-  text-align: center;
+  filter: saturate(150%) opacity(90%);
 }
 
 .homepage-paragraph {
@@ -88,6 +83,7 @@ a {
 .homepage-link-portfolio {
   color: var(--primary-color);
   font-size: 40px;
+  font-family: var(--secondary-font-family);
 }
 
 @media (max-width: 600px) {
