@@ -31,6 +31,7 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .homepage-head {
@@ -113,7 +114,7 @@ a {
   line-height: 2.2;
 }
 
-.about-paragraph {
+.primary-paragraph {
   text-align: justify;
   font-size: 20px;
   font-family: var(--secondary-font-family);
@@ -123,6 +124,9 @@ a {
   padding: 20px;
   opacity: 90%;
   border: none;
+  max-width: fit-content;
+  display: block;
+  margin: 0 auto;
 }
 
 .certificate {
