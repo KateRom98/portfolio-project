@@ -166,13 +166,13 @@ nav li {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   h2,
   p,
   .homepage-paragraph {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   nav li {
@@ -185,8 +185,13 @@ nav li {
     line-height: 1.9;
   }
 
+  .btn-light {
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+
   .homepage-link-portfolio {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .hard-skills-div,
@@ -195,7 +200,7 @@ nav li {
     line-height: 1.2;
   }
 
-  .about-paragraph {
+  .primary-paragraph {
     font-size: 15px;
   }
 }
