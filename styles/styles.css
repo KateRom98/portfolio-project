@@ -58,7 +58,7 @@ nav li {
 
 .homepage-head {
   background: linear-gradient(to right, #14061a, #223f62, #466183);
-  border-radius: 18px;
+  border-radius: 5px;
   box-shadow: 5px 5px 10px 10px var(--secondary-color);
   margin: 0 auto;
   margin-top: 100px;
@@ -99,7 +99,7 @@ nav li {
   text-align: justify;
   font-size: 20px;
   background-image: linear-gradient(to right, #1f0b28, #501c51, #a25fb1);
-  border-radius: 18px;
+  border-radius: 5px;
   box-shadow: 5px 5px 10px 10px var(--secondary-color);
   padding: 15px;
   opacity: 90%;
@@ -117,7 +117,7 @@ nav li {
   text-align: justify;
   font-size: 17px;
   background-image: linear-gradient(to right, #230d2d, #4f1b4f, #9555a3);
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 5px 5px 10px 10px var(--secondary-color);
   opacity: 90%;
   border: none;
@@ -141,7 +141,7 @@ nav li {
   font-size: 20px;
   font-family: var(--secondary-font-family);
   background-image: linear-gradient(to right, #1f0b28, #501c51, #a25fb1);
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 5px 5px 10px 10px var(--secondary-color);
   padding: 20px;
   opacity: 90%;
