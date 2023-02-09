@@ -164,6 +164,20 @@ nav li {
   margin: 0 auto;
 }
 
+footer .social-links {
+  text-align: center;
+  margin: 100px 0;
+}
+
+footer .social-links a {
+  margin: 40px;
+  font-size: 40px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #230d2d, #4f1b4f, #9555a3);
+  border-radius: 50% 5%;
+  opacity: 80%;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 45px;
@@ -202,5 +216,15 @@ nav li {
 
   .primary-paragraph {
     font-size: 15px;
+  }
+
+  footer .social-links {
+    margin: 50px 0;
+  }
+
+  footer .social-links a {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px;
   }
 }
