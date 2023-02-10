@@ -178,6 +178,22 @@ footer .social-links a {
   opacity: 80%;
 }
 
+p.open-source-paragraph {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-family: var(--secondary-font-family);
+  color: var(--primary-color);
+}
+
+a.open-source-link {
+  text-decoration: underline;
+}
+
+.footer-contact-page {
+  margin-top: 110px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 45px;
@@ -226,5 +242,8 @@ footer .social-links a {
     font-size: 20px;
     padding: 5px 10px;
     margin: 10px;
+  }
+  p.open-source-paragraph {
+    font-size: 15px;
   }
 }
